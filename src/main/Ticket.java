@@ -19,17 +19,17 @@ public class Ticket extends User {
         System.out.println("Booking Receipt are:");
         System.out.println("FromStation: "+ fromStation);
         System.out.println("toStation: "+ toStation);
-        System.out.println("main.User First Name: "+ getUserFirstName());
-        System.out.println("main.User Last Name: "+ getUserLastName());
-        System.out.println("main.User Email: "+ getUserEmail());
+        System.out.println("User First Name: "+ getUserFirstName());
+        System.out.println("User Last Name: "+ getUserLastName());
+        System.out.println("User Email: "+ getUserEmail());
         System.out.println("Price Paid: "+ price);
     }
 
     public void printBooking() {
         System.out.println("Booking Details for main.User: "+ getUserEmail());
-        System.out.println("main.User First Name: "+ getUserFirstName());
-        System.out.println("main.User Last Name: "+ getUserLastName());
-        System.out.println("main.User Email: "+ getUserEmail());
+        System.out.println("User First Name: "+ getUserFirstName());
+        System.out.println("User Last Name: "+ getUserLastName());
+        System.out.println("User Email: "+ getUserEmail());
         System.out.println("Seat Detail: "+ getSeat()[0]);
     }
 }
